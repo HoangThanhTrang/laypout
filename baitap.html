@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="baitapj.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="first f">
+            <h1>We like coffee too!</h1>
+            <i class="fas fa-mug-hot"></i>
+        </div>
+        <div class="second f">
+            <div class="details">
+                <h2>Personal details</h2><br/>
+                <input class="small" id="ten" type="text" value="Name">
+                <input class="small email" id="em" type="text" value="Email" >
+            </div>
+            <div class="input">
+                <input class="big" id="bigg" type="text " value="What about?">
+                <button onclick="check()">Send Inquiry</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        option="";
+        function check(){
+            var ten=document.getElementById("ten").value;
+            var em=document.getElementById("em").value;
+            var option="<h3>"+ten+"</h3>""<h3>"+em+"</h3>";
+            document.getElementById("bigg").innerHTML=option;
+        }
+    </script>
+</body>
+</html>

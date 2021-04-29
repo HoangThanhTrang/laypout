@@ -1,0 +1,80 @@
+.container{
+    
+    margin: 12px auto 48px auto;
+    padding: 32px 0;
+    max-width: 740px;
+    min-height: 360px;
+    background-image: url("nn.jpeg");
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 85px;
+    
+    
+    
+}
+.email{
+    margin-top: 10px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fa-mug-hot{
+    align-items: flex-end;
+    font-size:30px;
+        margin-top: 25px;
+    color:rgb(187, 139, 139);
+    margin-left: 20px;
+    
+    
+}
+h1,h2{
+    color: #fff;
+}
+.small{
+    color: #fff;
+    background-color: rgb(61, 57, 50);
+    width: 200px;
+    height: 40px;
+    border: rgb(61, 57, 50);
+}
+.big{
+    color: #fff;
+    background-color:  rgb(61, 57, 50);
+    margin-right: 50px;
+    border: rgb(61, 57, 50);
+    width: 361px;
+    height: 140px;
+}
+button{
+    border-radius: 10px;
+    color: #fff;
+    background-color:  rgb(61, 57, 50);
+    margin-right: 50px;
+    margin-top: 10px;
+    height: 40px;
+    align-self:  flex-end;
+    border:  rgb(61, 57, 50);
+    width: 70px;
+}

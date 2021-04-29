@@ -1,0 +1,474 @@
+<!-- .bg {width: 100%;
+    height: 800px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        background-image: url("pexels-photo-3923591.jpeg");
+    }
+
+    25% {
+        background-image: url("pexels-photo-807598.jpeg");
+    }
+
+    50% {
+        background-image: url("pexels-photo-623919.jpeg");
+    }
+
+    70% {
+        background-image: url("pexels-photo-6476119.jpeg");
+    }
+
+    100% {
+        background-image: url("lacay.jpeg");
+    }
+} -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+     .task {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left:30px;
+    }
+
+    .nav {
+        min-height: 42px;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 230px;
+        ;
+    }
+
+    .nav-left {
+        display: flex;
+        padding-left: 0;
+        margin: auto 16px;
+        flex-direction: row;
+    }
+    
+
+    .nav-right {
+        display: inline-block;
+        margin: 0 8px;
+    }
+
+    .margin {
+        padding-right: 30px;
+
+    }
+
+    .bg {
+        width: 100%;
+        height: 670px;
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
+    @keyframes mymove {
+        0% {
+            background-image: url("lacay.jpeg");
+        }
+
+        50% {
+            background-image: url("green2.jpeg");
+        }
+
+        100% {
+            background-image: url("pexels-photo-807598.jpeg");
+        }
+    }
+
+    .absolute {
+        background-color: #fff;
+        width: 100%;
+        height: 170px;
+        position: absolute;
+        top: 0px;
+    }
+
+    .bt1 {
+        height: 30px;
+
+        color: #fff;
+        background-color: black;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+        height: 40px;
+        transition: width 2s, height 4s;
+    }
+    .bt1:hover{
+        width: 130px;
+        height: 50px;
+        color: black;
+        background-color: rgb(114, 112, 108);
+    }
+    h3 {
+        color: cornflowerblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 90px;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .box1 {
+        width: 30%;
+        height: 150px;
+        background-color: rgb(19, 49, 21);
+        color: white;
+        padding: 30px;
+
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box2 {
+        width: 30%;
+        height: 150px;
+        background-color: rgb(50, 110, 68);
+        color: white;
+        padding: 30px;
+    }
+
+    .box3 {
+        width: 30%;
+        height: 150px;
+        background-color: rgb(69, 160, 96);
+        color: white;
+        padding: 30px;
+    }
+
+    .all {
+        width: 100%;
+        height: 665px;
+    }
+
+    .violet {
+        border-radius: 20px;
+        height: 40px;
+        background-color: rgb(56, 107, 59);
+        color: #fff;
+        transition: width 2s, height 4s;
+    }
+    .violet:hover{
+        width: 130px;
+        height: 50px;
+        background: black;
+    }
+
+    .yellow {
+        border-radius: 20px;
+        height: 40px;
+        background-color: rgb(56, 107, 59);
+        color: #fff;
+        transition: width 2s, height 4s;
+    }
+    .yellow :hover{
+        width: 130px;
+        height: 50px;
+        background: black;
+    }
+    .red {
+        border-radius: 20px;
+        height: 40px;
+        background-color: rgb(56, 107, 59);
+        color: #fff;
+        transition: width 2s, height 4s;
+    }
+    .red :hover{
+        width: 130px;
+        height: 50px;
+        background: black;
+    }
+    .call {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .contact-icon {
+        margin-right: 20px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .front {
+        margin-top: 40px;
+    }
+
+    .email {
+
+        width: 200px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .fa-envelope {
+        margin-right: 20px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .time {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .fa-compass {
+        margin-right: 20px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .address {
+        width: 200px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .fa-map-marker-alt {
+
+        margin-right: 20px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .text{
+        position: absolute;
+        top: 350px;
+        bottom: 150px;
+        left: 230px;
+        right: 400px;
+        color: #fff;
+    }
+    button{border-radius: 20px;
+        height: 40px;
+        background-color: rgb(146, 163, 147);
+        color: #fff;
+        transition: width 2s, height 4s;
+        }
+        button:hover{
+            width: 150px;
+            height: 40px;
+            background-color: black
+        }
+        .Home:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .About:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .Servecies:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .Quotes:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .Portfolio:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .shop:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .About:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        .Blog:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        
+        .Contact:hover{
+            border-width: 5px 2px;
+            border-bottom-style: solid;
+            color: rgb(65, 139, 145);
+        }
+        
+
+
+</style>
+
+<body>
+    <div class="all">
+        <!-- khoi background -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 bg" >.</div>
+                
+              </div>
+        </div>
+        
+        <!-- khoi 1 -->
+        <div class="absolute">
+            <div class="task">
+                <div class="call">
+                    <i class="fas fa-phone-square contact-icon"></i>
+                    <div class="front">
+                        <h3>Call Us Today</h3>
+                        <p> 458-362-1258</p>
+                    </div>
+
+                </div>
+
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <div class="front">
+                        <h3>Email</h3>
+                        <p>thequeitt2810@gmail.com </p>
+                    </div>
+
+                </div>
+                <div class="logo"> <i class="fab fa-asymmetrik" style="font-size:60px;color:orange;"></i></div>
+                <div class="time">
+                    <i class="fas fa-compass"></i>
+                    <div class="front">
+                        <h3>Location</h3>
+                        <p>9:00-17:00</p>
+                    </div>
+
+                </div>
+                <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="front">
+                        <h3>Address</h3>
+                        <p>456,Texas,USA</p>
+                    </div>
+
+                </div>
+            </div>
+            <hr style="width:80%;text-align:center;">
+            <!-- khoi 2 -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                
+                <button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-light" href="#">Home</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link btn btn-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle btn btn-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-light" href="#">Quotes</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <!-- khoi 3 -->
+        
+        <div class="container-fluid">
+        
+            <div class="row">
+                <div class="col-sm-4" style="background-color:rgb(30, 49, 30); color: #fff;padding: 20px;">
+                    <p>We work with passion</p>
+                    <h3>Copying Services </h3>
+                    <p>Apparently we had reached a great </p>
+                    <button class="red">READ MORE</button>
+                </div>
+                <div class="col-sm-4" style="background-color:rgb(47, 88, 35);color: #fff;padding: 20px;">
+                    <p>We work with passion</p>
+                    <h3>Graphic Design</h3>
+                    <p>Apparently we had reached a great </p>
+                    <button class="yellow">READ MORE</button>
+                </div>
+                <div class="col-sm-4" style="background-color:rgb(24, 110, 46);color: #fff;padding: 20px;">
+                    <p>We work with passion</p>
+                    <h3>Proprinting Services</h3>
+                    <p>Apparently we had reached a great </p>
+                    <button class="violet">READ MORE</button>
+                </div>
+        
+            </div>
+        </div>
+          
+        <!-- Khối 4 -->
+        <div class="container-fluid text">
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <h5>BIG TEXT</h5>
+                <h1>WE HAVE THE BEST PRINTING <br> SERVICES IN THE MARKET </h1>
+                <button>READ MORE</button>
+                </div>
+                 
+            </div>
+               
+        </div>
+    </div>
+
+</body>
+
+</html>

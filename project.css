@@ -1,0 +1,17 @@
+.push{
+        position: relative;
+}
+.add{
+    position: absolute;
+    top:80px;
+    left: 55%;
+    color: white;
+}
+button{
+    border: 2px solid rgb(37, 33, 33);
+  
+  background-color: white;
+}
+.bt{
+    border-radius: 12px;
+}
